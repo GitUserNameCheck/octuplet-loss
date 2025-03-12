@@ -1,0 +1,4 @@
+data/*.jpg
+data/*.jpeg
+data/*.png
+results/*.npy
