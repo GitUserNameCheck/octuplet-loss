@@ -2,3 +2,4 @@ data/*.jpg
 data/*.jpeg
 data/*.png
 results/*.npy
+__pycache__
