@@ -7,7 +7,10 @@ This is a face recognition model, which extracts a facial feature vector from an
 ### Model Description
 
 - **Model type:** Convolutional Neural Network
-- **License:** 
+- **Finetuned from model:** [FaceTransformer](https://github.com/zhongyy/Face-Transformer) by [zhongyy](https://github.com/zhongyy)
+
+### License
+
 Original Work:
 
 MIT License
@@ -56,16 +59,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-- **Finetuned from model:** [FaceTransformer](https://github.com/zhongyy/Face-Transformer) by [zhongyy](https://github.com/zhongyy)
-
 ### Model Sources
 
-- **Repository:** [GitHub](github.com/martlgap/octuplet-loss)
+- **Repository:** [GitHub](https://github.com/martlgap/octuplet-loss)
 - **Paper:** [IEEExplore](https://ieeexplore.ieee.org/document/10042669)
 
 ## Uses
 
-Use the model to extract a facial feature vector from an arbitrary aligned facial image. You can then compare that vector to other facial feature vectors to decide for same or not same person. 
+Use the model to extract a facial feature vector from an arbitrary aligned facial image. You can then compare that vector to other facial feature vectors to decide for same or not same person.
 
 `input_image`-Variable
 
