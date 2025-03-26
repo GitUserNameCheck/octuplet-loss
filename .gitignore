@@ -3,3 +3,4 @@ data/*.jpeg
 data/*.png
 results/*.npy
 __pycache__
+tempCodeRunnerFile.py

@@ -4,6 +4,7 @@ import mediapipe as mp
 import cv2
 import os
 import time
+import sys
 from skimage.transform import SimilarityTransform
 
 
@@ -33,6 +34,9 @@ def getEmbeddings(model_path, img_dir, matrix_path):
 
     for img_name in os.listdir(img_dir):
         img_path = os.path.join(img_dir, img_name)
+
+        # dir = "C:/Users/howto/Downloads/NN/FaceTransformerOctupletLoss"
+        # img_path = f"{dir}/data/1427491329.jpg"
 
         # Skip non-image files (optional, adjust as necessary)
         if not img_name.lower().endswith(('.png', '.jpg', '.jpeg')):
@@ -94,7 +98,7 @@ def getEmbeddings(model_path, img_dir, matrix_path):
 
 if __name__ == "__main__":
 
-    dir = "C:/Users/howto/Downloads/FaceTransformerOctupletLoss"
+    dir = "C:/Users/howto/Downloads/NN/FaceTransformerOctupletLoss"
     model_path = f"{dir}/FaceTransformerOctupletLoss.onnx"
     img_dir = f"{dir}/data/"
     matrix_path = f"{dir}/matrix.npy"
